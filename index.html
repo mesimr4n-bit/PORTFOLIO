@@ -279,6 +279,31 @@
       flex-direction: column;
       justify-content: space-between;
     }
+    .cert-card {
+      padding: 18px;
+      gap: 16px;
+    }
+    .certificate-preview {
+      display: block;
+      width: 100%;
+      height: 230px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      background: #fff;
+    }
+    body.light-mode .certificate-preview {
+      border-color: rgba(15, 23, 42, 0.1);
+    }
+    .certificate-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .certificate-actions .btn {
+      flex: 1;
+      justify-content: center;
+      padding: 9px 12px;
+      font-size: 0.82rem;
+    }
     .project-card:hover, .cert-card:hover {
       transform: translateY(-5px);
       border-color: rgba(110, 231, 255, 0.3);
@@ -465,37 +490,37 @@
               </ul>
 
               <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                <a href="./AI-ML Virtual Internship.pdf" class="btn btn-secondary" target="_blank">
+                <a href="./AI-ML Virtual Internship.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-certificate"></i> View Certificate
                 </a>
-                <a href="./AI-ML Virtual Internship Offer Letter.pdf" class="btn btn-secondary" target="_blank">
+                <a href="./AI-ML Virtual Internship offer letter.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-file-contract"></i> Offer Letter
                 </a>
               </div>
             </div>
           </div>
 
-          <!-- Internship 2: Machine Learning & Data Science Virtual Internship (EduSkills / AICTE) -->
+          <!-- Internship 2: Java Full Stack Development Virtual Internship -->
           <div class="timeline-item" style="margin-bottom: 0;">
             <div>
               <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-                <h3 style="font-size: 1.2rem; color: #6ee7ff;">Machine Learning & Data Science Virtual Intern</h3>
+                <h3 style="font-size: 1.2rem; color: #6ee7ff;">Java Full Stack Development With Project Virtual Intern</h3>
                 <span style="font-size: 0.8rem; background: rgba(110, 231, 255, 0.1); color: #6ee7ff; padding: 4px 12px; border-radius: 20px; font-weight: 600;">Grade O (Outstanding)</span>
               </div>
               <p style="color: #b084ff; font-size: 0.95rem; margin: 4px 0; font-weight: 500;">AICTE - EduSkills</p>
-              <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 15px;">August 2026 - October 2026 (8 Weeks)</p>
+              <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 15px;">June 2026 - August 2026 (8 Weeks)</p>
               
               <ul style="color: #cbd5e1; font-size: 0.9rem; padding-left: 18px; margin-bottom: 20px;">
-                <li>ML Foundations, Python for Data Science, Data Manipulation & Visualization using Pandas, Matplotlib, and Seaborn.</li>
-                <li>Supervised Learning, Feature Engineering, Model Evaluation, and Unsupervised Learning techniques using Scikit-learn.</li>
-                <li>Text Analytics & NLP Fundamentals, SQL Integration, Model Deployment, and MLOps Capstone Project execution.</li>
+                <li>Developed responsive interfaces using HTML, CSS, Bootstrap, and JavaScript/jQuery[cite: 2].</li>
+                <li>Built backend components using Core Java, Advanced Java (JDBC, Servlets), and Spring Boot Framework[cite: 2].</li>
+                <li>Implemented data persistence with Hibernate and MySQL database, alongside version control via Git & GitHub[cite: 2].</li>
               </ul>
 
               <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                <a href="./Machine Learning & Data Science Virtual Internship.pdf" class="btn btn-secondary" target="_blank">
+                <a href="./Java Full Stack Development With Project Virtual Internship.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-certificate"></i> View Certificate
                 </a>
-                <a href="./Machine Learning & Data Science Virtual Internship Offer letter.pdf" class="btn btn-secondary" target="_blank">
+                <a href="./Java Full Stack Development With Project Virtual Internship offer letter.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-file-contract"></i> Offer Letter
                 </a>
               </div>
@@ -537,80 +562,48 @@
 
       <section id="certs">
         <h2 class="section-title">Certifications</h2>
+        <p style="max-width: 700px; margin: -25px auto 30px; text-align: center; color: #94a3b8;">Explore all certificates below. Each one is previewed here and can be opened in full size.</p>
         <div class="grid-3">
-          
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-award fa-lg" style="color: #6ee7ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">Big Data Computing</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">NPTEL Online Certification (IIT Kanpur)</p>
-            </div>
-            <a href="./NPTEL Online Certification (IIT Kanpur) BIG DATA COMPUTING.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-cloud fa-lg" style="color: #6ee7ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">Generative AI Foundations</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">AWS Academy</p>
-            </div>
-            <a href="./AWSAcademy12NEW20260519-31-kxs01i.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-brain fa-lg" style="color: #b084ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">AWS Machine Learning</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">AWS Academy</p>
-            </div>
-            <a href="./AWS_Academy_Graduate___Machine_Learning_Foundations___Training_Badge_Badge20260519-31-8p86m.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-          
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-cubes fa-lg" style="color: #6ee7ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">Blockchain Technology</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">Simplilearn</p>
-            </div>
-            <a href="./BLOCKCHAIN.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-brain fa-lg" style="color: #b084ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">ADVANCE EXCEL</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">GREYLEARN</p>
-            </div>
-            <a href="ADVANCE EXCEL.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
-           <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-brain fa-lg" style="color: #b084ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">C++ CERTIFICATE</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">GREYLEARN</p>
-            </div>
-            <a href="C++ CERTIFICATE.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-          
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-chart-line fa-lg" style="color: #b084ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">NISM Certification</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">Equity & Financial Markets</p>
-            </div>
-            <a href="./NISM Certificate.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
-          <div class="glass-card cert-card">
-            <div>
-              <i class="fas fa-graduation-cap fa-lg" style="color: #b084ff; margin-bottom: 15px;"></i>
-              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">Microsoft Excel</h3>
-              <p style="font-size: 0.85rem; color: #94a3b8;">Infosys</p>
-            </div>
-            <a href="./Infosys Certificate.pdf" class="btn btn-secondary" style="margin-top:20px; justify-content: center;" target="_blank"><i class="fas fa-download"></i> Certificate</a>
-          </div>
-
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-award fa-lg" style="color: #6ee7ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">Big Data Computing</h3><p style="font-size: 0.85rem; color: #94a3b8;">NPTEL Online Certification (IIT Kanpur)</p></div>
+            <iframe class="certificate-preview" src="./NPTEL Online Certification (IIT Kanpur) BIG DATA COMPUTING.pdf" title="Big Data Computing certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./NPTEL Online Certification (IIT Kanpur) BIG DATA COMPUTING.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-cloud fa-lg" style="color: #6ee7ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">Generative AI Foundations</h3><p style="font-size: 0.85rem; color: #94a3b8;">AWS Academy</p></div>
+            <iframe class="certificate-preview" src="./AWSAcademy12NEW20260519-31-kxs01i.pdf" title="AWS Academy Generative AI Foundations certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./AWSAcademy12NEW20260519-31-kxs01i.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-brain fa-lg" style="color: #b084ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">AWS Machine Learning Foundations</h3><p style="font-size: 0.85rem; color: #94a3b8;">AWS Academy</p></div>
+            <iframe class="certificate-preview" src="./AWS_Academy_Graduate___Machine_Learning_Foundations___Training_Badge_Badge20260519-31-8p86m.pdf" title="AWS Machine Learning Foundations certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./AWS_Academy_Graduate___Machine_Learning_Foundations___Training_Badge_Badge20260519-31-8p86m.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-cubes fa-lg" style="color: #6ee7ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">Blockchain Technology</h3><p style="font-size: 0.85rem; color: #94a3b8;">Simplilearn</p></div>
+            <iframe class="certificate-preview" src="./BLOCKCHAIN.pdf" title="Blockchain Technology certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./BLOCKCHAIN.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-table-cells-large fa-lg" style="color: #b084ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">Advanced Excel</h3><p style="font-size: 0.85rem; color: #94a3b8;">GreyLearn</p></div>
+            <iframe class="certificate-preview" src="./ADVANC EXCEL.pdf" title="Advanced Excel certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./ADVANC EXCEL.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-code fa-lg" style="color: #b084ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">C++ Programming</h3><p style="font-size: 0.85rem; color: #94a3b8;">GreyLearn</p></div>
+            <iframe class="certificate-preview" src="./C++ CERTIFICATE.pdf" title="C++ Programming certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./C++ CERTIFICATE.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-chart-line fa-lg" style="color: #b084ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">NISM Certification</h3><p style="font-size: 0.85rem; color: #94a3b8;">Equity &amp; Financial Markets</p></div>
+            <iframe class="certificate-preview" src="./NISM%20CERTIFICATE.pdf" title="NISM Certification certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./NISM%20CERTIFICATE.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
+          <article class="glass-card cert-card">
+            <div><i class="fas fa-graduation-cap fa-lg" style="color: #b084ff;" aria-hidden="true"></i><h3 style="font-size: 1.1rem; margin: 8px 0 4px;">Microsoft Excel</h3><p style="font-size: 0.85rem; color: #94a3b8;">Infosys</p></div>
+            <iframe class="certificate-preview" src="./infosys%20certificate.pdf" title="Infosys Microsoft Excel certificate preview" loading="lazy"></iframe>
+            <div class="certificate-actions"><a href="./infosys%20certificate.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer"><i class="fas fa-up-right-from-square"></i> Open certificate</a></div>
+          </article>
         </div>
       </section>
 
@@ -740,7 +733,7 @@ form.addEventListener('submit', function(e) {
 
       // Typing effect
       const typingElement = document.getElementById('typingEffect');
-      const words = ["AI/ML Specialist", "Python Neural Architect", "Predictive Systems Developer"];
+      const words = ["AI/ML Specialist", "Python Neural Architect", "Data Pipeline Engineer", "Computer Vision Enthusiast", "Deep Learning Practitioner"];
       let wordIndex = 0, charIndex = 0, isDeleting = false;
       function type() {
         const current = words[wordIndex];
